@@ -12,6 +12,7 @@ class Reg_PageObject {
     setName() {
 
         return cy.get('#name');
+        
     }
 
 
@@ -42,7 +43,7 @@ class Reg_PageObject {
     }
     setCity() {
 
-        return cy.get('#inputCity')
+        return cy.get('[name="city"]')
     }
     setAddress1() {
 
