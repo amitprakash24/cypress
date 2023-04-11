@@ -6,12 +6,13 @@
    "browsers": [{
          "browser": "Chrome",
          "versions": ["111.0"],
-         "platform": "Windows 10",
+         "platform": "Windows 10"
    }],
    "run_settings": {
        "network": true,
+       "parallels": 1,
        "build_name": "Lambdatest new build",
-       "cypress_config_file": "*.spec.js",
+      "specs": "cypress/e2e/integration/*.spec.js",
        "project_name": "lambdatest cypress 101"
-   },
+   }
  }
